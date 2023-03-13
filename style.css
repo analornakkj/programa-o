@@ -20,7 +20,7 @@ body, ul, li, p{
     /* Define as características do header */
     .header{
     /* Cor de fundo */
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     /* display flexível */
     display: flex;
     /* Organizado em linha */
@@ -29,10 +29,24 @@ body, ul, li, p{
     justify-content: space-between;
     /* centralizado */
     align-items: center;
-    /* "margem interna" */
-    
-    
-    
-    
-    
-    
+    /*"margem interna" */
+    padding: 20px;
+}
+
+
+.menu{
+    display: flex;
+}   
+
+/* distância entre as palavras do link */
+.menu li{ 
+    margin-left: 10px;
+}
+
+.menu li a{
+   display: block;
+   padding: 10px;
+   background-color: #74291b91;
+
+
+} 
