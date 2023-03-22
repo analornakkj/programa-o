@@ -47,6 +47,17 @@ body, ul, li, p{
    display: block;
    padding: 10px;
    background-color: #74291b91;
-
-
+   /* background-color: #74291b91; */
 } 
+
+/* ********************* FAZENDO O CORPO DO SITE********************************************* */
+
+/* Ajustando o tamanho da imagem */ 
+.imagem{ 
+     width: 300px;
+     height: auto;
+}
+
+body{
+    background-color: bisque;
+}
