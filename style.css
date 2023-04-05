@@ -56,16 +56,39 @@ body, ul, li, p{
     min-height: 100vh;
     background-color: darkgray;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
     
 }
 /* Ajustando o tamanho da imagem */
 .imagem{
     width: 400px;
     height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0.767);
+}
+
+.legenda{
+    text-align: center;
+    padding: 5px;
 }
 
 /* Ajustando os itens da página */
+
+.texto{
+    width: 100vh;
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+.paragrafo{
+    font-family: poppins;
+}
+
+
+
+
 
 
 .item{
@@ -78,7 +101,3 @@ body, ul, li, p{
     text-align: justify;
 }
 
-.paragrafo{
-    padding: 10px;
-    text-align: justify;
-}
