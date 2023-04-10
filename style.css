@@ -84,9 +84,32 @@ body, ul, li, p{
 }
 .paragrafo{
     font-family: poppins;
+    padding: 10xp;
+    text-align: justify;
 }
 
 
+/* Ajustando o cabeçalho */
+
+.footer{
+     background-color: aliceblue;
+     padding: 15px; 
+     color:aliceblue;
+     font-size: 30px;
+}
+
+.redesSociais{
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+}
+
+.redeLogo{
+    margin: 10px;
+    padding: 5px;
+    width:  30px;
+    height: auto;
+}
 
 
 
